@@ -329,6 +329,8 @@ class LDAPUpdate:
             # uid / gid for autobind
             NAMED_UID=platformconstants.NAMED_USER.uid,
             NAMED_GID=platformconstants.NAMED_GROUP.gid,
+            KRB5KDC_UID=platformconstants.KRB5KDC_USER.uid,
+            KRB5KDC_GID=platformconstants.KRB5KDC_GROUP.gid,
         )
         for k, v in default_sub.items():
             self.sub_dict.setdefault(k, v)
