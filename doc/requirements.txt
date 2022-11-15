@@ -26,3 +26,4 @@ lxml
 
 ## No sufficient PyPI packages
 # dogtag-pki
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
