@@ -26,3 +26,4 @@ lxml
 
 ## No sufficient PyPI packages
 # dogtag-pki
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
